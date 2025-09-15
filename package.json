@@ -1,0 +1,45 @@
+{
+  "name": "kinggoku90-backend-portfolio",
+  "version": "0.0.1",
+  "description": "The KingGoku90 Backend Challenge Web App",
+  "author": "KingGoku90",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "multer": "^1.4.5-lts.1",
+    "regexp.prototype.flags": "^1.4.3",
+    "replace": "^1.2.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "got": "^11.8.5",
+    "tape": "^4.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KingGoku910/kinggoku90-backend-portfolio-app.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "hyperdev",
+    "express",
+    "freeCodeCamp",
+    "Web Developer",
+    "Front End Developer",
+    "Back End Developer"
+  ],
+  "license": "MIT"
+}

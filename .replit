@@ -1,0 +1,18 @@
+run = "npm start"
+entrypoint = "index.js"
+modules = ["nodejs-16", "web"]
+
+[packager]
+language = "nodejs"
+
+  [packager.features]
+  packageSearch = true
+  guessImports = true
+  enabledForHosting = false
+
+[nix]
+channel = "stable-25_05"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
